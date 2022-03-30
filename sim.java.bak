@@ -1,0 +1,48 @@
+//descripcion del problema: se debe de crear un programa que sea capaz de calcular cuan
+// entradas: capital inicial, porcentaje del interes compuesto
+//salidas: num de años para llegar al capital final
+//
+import java.lang.Math;
+import java.util.Scanner;
+
+public class sim {
+	
+	public static double ciclodouble (double ci ,double r ){
+	double ciclo;
+	ciclo=(Math.log10(1000000/ci))/(Math.log10(1+r));
+	return ciclo;
+	}
+	
+	
+	
+	
+	public static double resuldouble (double ciclo ){
+	double   resul;
+	resul=(ciclo/12);
+	return resul;
+	}
+	
+	
+	
+	public static void main(String[] args) {
+		
+		
+	Scanner lector = new Scanner(System.in);
+
+     System.out.println ("digite el capital inicial");
+	  double ci= lector.nextDouble();
+	 
+	 System.out.println ("digite el interes compuesto que ofrece el banco");
+	
+	 double r= lector.nextDouble();
+	  
+	  double ciclo= ciclodouble (ci,r);
+	  double resul= resuldouble(ciclo);
+	 
+	 
+
+	 System.out.println ("el numero de periodos necesarios para llegar al capital final es de : " + resul);
+
+	 
+	}
+}

@@ -1,0 +1,10 @@
+cd "C:\Users\juanb\OneDrive\Documentos\hola mundo/nombrecarpeta"
+ javac -cp src src/ui/ArreglosEnteros.java -d bin
+tree /f
+java -cp bin ui/ArreglosEnteros
+javadoc -cp src src/ui/nombre.java -d doc/API/
+
+
+
+
+

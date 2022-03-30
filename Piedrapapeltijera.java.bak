@@ -1,0 +1,24 @@
+package ui;
+import java.util.Random;
+
+public class Piedrapapeltijera{
+	public static double n=0;
+	 public static void main(String[] args){
+		 System.out.println ("bienvenido a piedra papel o tijera");
+		  System.out.println ("elija una de las ociones: 1.piedra 2.papel 3.tijera");
+		  int n= sc.nextint();
+	 
+	}
+	
+	 int nrandom = new random(3);
+	 nrandom.nextInt ();
+	 System.out.println ("digite el numero de noches que desea alojarse (tenga en cuenta que cada noche tiene un valor de 100000) ");
+	
+	
+	
+	
+	
+	
+	
+	
+}

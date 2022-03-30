@@ -1,0 +1,1 @@
+cmd %cd% /c javac -cp src src/ui/Turlin_machine.java. -d bin & java -cp bin ui.Turlin_machine & pause
